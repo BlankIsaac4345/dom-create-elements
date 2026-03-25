@@ -15,4 +15,10 @@ function start() {
 
     // add heading to the page
     document.body.appendChild(heading);
+    // ask user for their name
+    let userName = prompt("Enter your name")
+
+    // check if its taking the name
+    console.log("newName")
+
 }
